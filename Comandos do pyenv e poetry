@@ -1,0 +1,17 @@
+
+# Comando pra configurar o Poetry como gestor do meu projeto
+poetryy config virtualenvs.in-project true
+
+# comando pra criar a pasta do meu projeto com suas respectivas pastas
+poetry new nome_do_projeto
+
+# Comando pra dizer qual versão do meu ambiente virtual do projeto
+pyenv local <versão do ambiente virtual>
+
+# Comando pra dizer para o poetry qual a versão do ambiente que ele vai usar
+poetry env use 3.12.1
+
+# Comando pra adicionar pacotes ou bibliotecas ao meu projeto com poetry
+poetry add django
+
+

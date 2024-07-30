@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "criando-imagens"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+notebook = "^7.2.1"
+sqlite-utils = "^3.36"
+anaconda = "^0.0.1.1"
+setuptools = "^70.3.0"
+wheel = "^0.43.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
